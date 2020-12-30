@@ -12,5 +12,5 @@ A support parsing field DateTime insert field type date in MongoDB.
 ## Example
 
 ```sh
-docker run --rm -it -v $(pwd):/tmp aofdev/insert-jsonfile-to-mongodb:latest bash -c "python main.py --mongo_uri='mongodb://root:!@localhost:27017/?authSource=admin' --mongo_db='testdb' --mongo_collection='test_collection' --jsonfile='/tmp/example/data.json'"
+docker run --rm -it -v $(pwd):/tmp aofdev/insert-jsonfile-to-mongodb:latest bash -c "python main.py --mongo_uri='mongodb://root:!@localhost:27017/?authSource=admin' --mongo_db='testdb' --mongo_collection='test_collection' --jsonfile='/tmp/example/test_data.json'"
 ```
